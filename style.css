@@ -1,0 +1,266 @@
+I*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px;
+    font-family: Malgun Gothic;
+    font-weight: 400;
+    padding: 0px 0px;
+}
+
+header
+{
+    background: url(Images/Images/slider21.jpg) left center no-repeat fixed;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    top: 0;
+    left: 0%;
+    right: 0%;
+}
+
+#logo
+{
+    padding: 30px 50px;
+}
+
+hr
+{
+    width: 40%;
+    margin: 100px auto;
+}
+
+body hr:first-child
+{
+    margin: 0px auto;
+}
+
+.intro
+{
+    width: 100%; 
+    font-size: 40px;
+    /* height: 367px; */
+    font-family: Malgun Gothic;
+    font-weight: lighter;
+    background: rgb(255, 255, 255);
+    color: rgb(53, 53, 27);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;        
+}
+
+
+.intro img
+{
+
+    height: auto;
+    width: 46%;
+}
+
+.cadre
+{
+
+    width: calc(100% - 46%);
+    /* height: 367px; */
+    padding: 100px 0;
+    background: #ffffff;
+    height: auto;
+    text-align: center;
+}
+
+.don
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    /* align-content:flex-start; */
+}
+
+.don li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 20px 40px;
+    width: 15%;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background: rgba(255, 255, 255, 0.938);
+    margin: 5% 3%;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.don li:hover
+{
+    background-color: rgba(19, 19, 6, 0.842);
+}
+
+
+
+@media screen and (max-width: 877px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    
+    .don li
+    {
+        width: 40%;
+        text-align: center; 
+    }       
+}
+
+
+@media screen and (max-width: 800px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+    
+    .intro
+    {
+        width: 100%; 
+        display: block;
+        font-size: 20px;
+    }
+
+    .intro img
+    {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .cadre
+    {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        background: #ffffff;
+        height: auto;
+        text-align: center;
+    }
+
+    hr
+    {
+        width: 40%;
+        margin: 20px auto;
+    }
+
+    
+}
+
+
+body .container
+{
+    margin: 50px 15%;
+}
+
+.container
+{
+    width: 70%; 
+    height: 230px;
+    border: 2px solid whitesmoke;    
+    display: block;
+    position: relative;
+    margin: 200px;
+    border-radius: 5px;
+}
+
+.container .img1
+{
+    position: absolute;
+    display: inline-block;
+}
+
+.article
+{
+    display: inline-block;
+    position: absolute; 
+    margin-left: 30.5%;
+    padding: 3px 5px 6px 0px;
+    height: 211px;
+    width: 69%;
+}
+
+
+.titre_article
+{
+    display: block;
+    width: auto;
+    height: auto; 
+    font-size: 15px;
+    color: tomato;
+    font-weight: bold;
+    margin: 2px 2px;
+    padding: 2px 2px;
+
+}
+
+.corps_article
+{
+    display: block;
+    font-family: Malgun Gothic;
+    height: auto;
+    width: auto; 
+    margin: 5px 5px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.info
+{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    font-weight: bold;
+    color: rgb(117, 65, 65);
+}
+
+.categorie
+{
+    margin-top: 3px;
+    display: inline;
+    padding: 3px 15px;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    background-color: rgb(240, 245, 250);
+    color: rgb(138, 138, 233);
+    font-weight: bold;
+    font-size: 9px; 
+    position: absolute;
+}
+
+.auteur
+{
+    display: inline;
+    width: auto;
+    padding: 0px 15px;
+}
+
+
+footer
+{
+    height: auto;
+    width: 100%;
+    background: rgb(221, 224, 8);
+     text-align: center; 
+    font-family: Malgun Gothic;
+    font-size: 16px;
+    font-weight: bold;
+     padding: 40px 0px;
+    color: white;
+    bottom: 0;
+    position: relative;
+}
